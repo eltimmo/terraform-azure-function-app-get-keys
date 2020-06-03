@@ -5,6 +5,6 @@ This module can be called to as part of a terraform deployment to return functio
 
 This will try to recover the key, waiting 10 seconds between each retry for a maximum of 30 attempts. These can be changed in the powershell code as required.
 
-This uses powershell 7 core, so in theory will work on Linux however I have not been able to test this.
+This uses powershell 7 core and Azure CLI, so in theory will work on Linux however I have not been able to test this.
 
 Variables need to be supplied as defined in variables.tf
