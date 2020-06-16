@@ -8,3 +8,6 @@ This will try to recover the key, waiting 10 seconds between each retry for a ma
 This uses powershell 7 core and Azure CLI, so in theory will work on Linux however I have not been able to test this.
 
 Variables need to be supplied as defined in variables.tf
+- To get 'masterKey' use 'masterKey' for keySet & key parameters
+
+Updated 15/06/2020 - Updated code 
